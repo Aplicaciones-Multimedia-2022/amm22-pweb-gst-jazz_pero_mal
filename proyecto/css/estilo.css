@@ -1,0 +1,48 @@
+@font-face{
+  font-family: fuenteLibre;
+  src:url(../res/THWACK.TTF);
+}
+
+body,html {
+  margin: 10px;
+  font-family: fuenteLibre;
+/*  background: url(../img/syncopa-jazz-and-cocktail.jpg); */
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-color: grey;
+  background-position: center;
+}
+
+h1{
+text-align: center;
+}
+
+.Juego{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: fuenteLibre;
+}
+
+.Descripcion{
+  margin-top: 20px;
+  margin-left: 40px;
+  font-family: fuenteLibre;
+}
+
+.Autores {
+  margin-top: 20px;
+  margin-left: 75px;
+  font-family: fuenteLibre;
+}
+
+.Multimedia{
+  margin-top: 20px;
+  margin-left: 85px;
+  font-family: fuenteLibre;
+}
+
+.Desarrollo{
+  margin-top: 20px;
+  margin-left: 105px;
+  font-family: fuenteLibre;
+}
