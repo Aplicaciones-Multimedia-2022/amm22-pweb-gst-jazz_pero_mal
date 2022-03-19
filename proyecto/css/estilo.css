@@ -1,3 +1,4 @@
+/*Esto es el css del menu de inicio*/
 @font-face{
   font-family: fuenteLibre;
   src:url(../res/THWACK.TTF);
@@ -6,8 +7,8 @@
 body,html {
   margin: 10px;
   font-family: fuenteLibre;
-/*  background: url(../img/syncopa-jazz-and-cocktail.jpg); */
-  background-size: 1000px;
+ /*background: url(../img/syncopa-jazz-and-cocktail.jpg);*/
+  background-size: 10000px;
   background-repeat: no-repeat;
   background-color: grey;
   background-position: center;
@@ -17,10 +18,17 @@ h1{
 text-align: center;
 }
 
-.Juego{
-  margin-top: 20px;
-  margin-left: 20px;
-  font-family: fuenteLibre;
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
 }
 
 .Descripcion{
@@ -37,12 +45,12 @@ text-align: center;
 
 .Multimedia{
   margin-top: 20px;
-  margin-left: 85px;
+  margin-left: 95px;
   font-family: fuenteLibre;
 }
 
 .Desarrollo{
   margin-top: 20px;
-  margin-left: 105px;
+  margin-left: 115px;
   font-family: fuenteLibre;
 }
