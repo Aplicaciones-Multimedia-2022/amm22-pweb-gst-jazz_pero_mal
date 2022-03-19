@@ -1,0 +1,35 @@
+/* Esto es el css de la pantalla de seleccion de personaje*/
+@font-face{
+  font-family: fuenteLibre;
+  src:url(../res/THWACK.TTF);
+}
+
+body,html {
+  margin: 10px;
+  font-family: fuenteLibre;
+ /*background: url(../img/syncopa-jazz-and-cocktail.jpg);*/
+  background-color: grey;
+}
+
+.Seleccion{
+margin-left: 200px;
+margin-top: 200px;
+float: left;
+}
+
+#TituloSeleccion{
+  text-align: center;
+  height: 50px;
+}
+
+.VolverMenu{ /*boton de volver al menu principal*/
+  margin-top: 700px;
+  margin-left: -1500px;
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: red;
+}
